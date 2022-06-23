@@ -1,0 +1,31 @@
+algortimo "Meios de Transporte"
+
+escolha
+caso 1
+escreva("Sim")
+caso 2
+escreva("Não")
+fimescolha
+ 
+//entrada de dados
+escreva("vamos descobrir qual meio de transporte você está pensado?")
+leia(SIM)
+escreva("É Terrestre")
+leia(Não)
+escreva("É Áereo?")
+leia(Não)
+escreva("É Aquático?")
+leia(Sim)
+escreva("É coberto de Água?")
+leia(Não)
+escreva("Navega na Água?")
+leia(Sim)
+escreva("Possui Vela?")
+leia(Não)
+escreva("Tem Motor"?)
+leia(Sim)
+escreva("É alto?")
+leia(Sim)
+escreva("O meio de transporte no qual você estava pensando é um navio?")
+leia(Sim)
+
