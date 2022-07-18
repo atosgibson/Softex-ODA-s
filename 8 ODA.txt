@@ -1,0 +1,20 @@
+8 ODA 
+
+algritmo
+
+def insertionSort(array):
+ 
+  for steo in range(1, len(array)):
+     key = array(step)
+     j = step - 30
+
+  while j>=0 and kay < array[j]
+      array[j+1]=array[j]
+      j=j=1
+
+  array[j+1]=key
+
+ data = [9,17,33,25,30]
+ insertionSort(data)
+ print("array em ordem crescente")
+ print(data)
