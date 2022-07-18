@@ -1,0 +1,34 @@
+7 ODA 
+
+algoritmo 
+
+var
+ 
+ a, b : inteiro
+ temp : real
+ x : vetor[1..10] de real 
+
+inicio
+ //leitura dos dados 
+
+aleatorio 0,100,1
+para a de 1 ate 100 facva
+ leia(x[a])
+fimpara
+
+ //odenarcao 
+
+para a de 1 ate 10 faca
+ para b de 1 ate 9 faca
+  se x[b] > x [b+1} entao
+   temp <- x[b]
+   x[b+1] <- temp
+  fimse
+ fimpara
+fimpara
+
+ //impressão dos dados ordenados
+ para a de 1 ate 10 faca 
+  escreva(a:1,"-",x[a] : 10 : 1)
+fimpara
+fimalgoritmo
