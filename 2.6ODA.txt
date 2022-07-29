@@ -7,10 +7,10 @@ def idade_atual():
     idade = 2022 - nascimento
     
     if nascimento >= 1922 and nascimento <= 2021:
-        print(str(nome) + " tem, ou irá completar, ", str(idade), "anos em 2022!")
+        print(str(nome) + " tem, ou irÃ¡ completar, ", str(idade), "anos em 2022!")
         sys.exit()
     else:
-        print("Digite um ano de nascimento válido, entre 1992 e 2021")
+        print("Digite um ano de nascimento entre 1992 e 2021")
 
         idade_atual()
         
