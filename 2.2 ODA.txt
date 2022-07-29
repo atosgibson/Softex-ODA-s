@@ -1,0 +1,20 @@
+## Algoritmo 
+
+quant_roda = 5
+peso = 6050
+quant_pessoas = 2
+
+if(quant_roda == 2 or quant_roda == 3):
+   print("escolha a categoria A")
+elif(quant_roda == 4 and quant_pessoas == <=8 and peso <= 3500)
+   print("escolha a categoria B")
+elif(quant_roda >= 4 and peso > 3500 and peso <==6000):
+   print("escolha a categoria C")
+elif(quant_roda >= 4 and quant_pessoas > 8):
+   print("escolha a categoria D")
+elif(quant_roda >= 4 and peso > 6000):
+   print("escolha a categoria E")
+else:
+   print("Os valores são invalidos!")
+
+## Fimalgoritmo
