@@ -1,0 +1,24 @@
+## Algoritmo 
+
+def calculadora (num1, num2, num3):
+    if num3 == 1:
+      numfinal = num1 + num2
+      return numfinal
+      print(numfinal) 
+    elif num3 == 2:
+      numfinal = num1 - num2
+      return numfinal
+      print(numfinal)
+    elif num3 == 3:
+      numfinal = num1 * num2
+      return numfinal
+      print(numfinal)
+    elif num3 == 4:
+      numfinal = num1 / num2
+      return numfinal
+      print(numfinal)
+    else:
+      return 0
+      print(0) 
+
+## Fimalgoritmo
