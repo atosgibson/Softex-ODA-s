@@ -1,0 +1,15 @@
+from enum import Enum
+
+nome = input("Nome do Aluno")
+faltas = int(input("Quantidade de Faltas"))
+if faltas > 3:
+  print("O aluno", nome, "está reprovado, devido ás", faltas, "faltas")
+else:
+  nota1 = float(input("Qual a sua primeira nota?"))
+  nota2 = float(input("Qual a sua segunda nota?"))
+  media = float(nota1 + nota2) / 2
+  print("A média de", nome, "foi", media)
+if media < 7:
+  print("o aluno", nome, "está REPROVADO!")
+else:
+  print("o aluno", nome, "está APROVADO!")
