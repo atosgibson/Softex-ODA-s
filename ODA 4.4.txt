@@ -1,0 +1,24 @@
+// Um software de uma empresa contém as seguintes classes na pasta src/
+
+contratos.java
+planilhaorganizacao.java
+
+//criando pacotes para as classes/
+
+
+package comercial;
+ 
+public class contratos {
+
+}
+
+package tecnico;
+
+public class planilhaorganizacao {
+
+}
+
+import comercial.contratos;
+import tecnico.planilhaorganizacao;
+
+ 
