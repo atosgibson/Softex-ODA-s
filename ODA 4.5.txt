@@ -1,0 +1,25 @@
+# usando métodos de manipulação string em python
+# upper() - caso haja a necessidade de colocar tudo em maiúsculo
+
+#upper
+
+str =  "Exemplo de String"
+print(str)
+print(str.upper())
+
+#lower() - caso haja a necessidade de colocar tudo em minúsculo
+
+#lower
+
+str = "Exemplo de String"
+print(str)
+print(str.lower())
+
+#[index] - para sabermos qual caractere está em determinada posição da string
+
+#[index]
+
+str = "Exemplo de String"
+print(str[3])
+
+# com esse código retorna "m" 
