@@ -1,0 +1,17 @@
+1. Função tradicional;
+
+Function getRandomNumber(){
+  return Math.random()
+}
+
+
+2. uma função tradicional com parâmetros e um retorno de valor;
+
+Function soma(num1, num2){
+  var resultado=num1+num2
+  console.log(resultado);
+}
+
+3.Uma arrow function com parâmetros e que retorne um valor
+ 
+const getRandomNumber = () => Math.random() 
