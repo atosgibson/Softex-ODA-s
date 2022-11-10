@@ -1,0 +1,19 @@
+var arrayAluno = ['João', 'Souza', 20, 'Direito'];
+console.log("Nome do aluno: " + arrayAluno[0] + " " + arrayAluno[1]);
+console.log("Idade: " + arrayAluno[2] + " " + "Curso: " + arrayAluno[3]);
+/*saída:
+Nome do aluno: João Souza
+Idade: 20 Curso: Direito
+*/
+var objetoAluno = {
+    nome: "João",
+    sobrenome: "Souza",
+    idade: 20,
+    curso: "Direito"
+}
+console.log("Nome do aluno: " + objetoAluno.nome + " " + objetoAluno.sobrenome);
+console.log("Idade: " + objetoAluno.idade + " " + "Curso: " + objetoAluno.curso);
+/* saída:
+Nome do aluno: João Souza
+Idade: 20 Curso: Direito
+*/
