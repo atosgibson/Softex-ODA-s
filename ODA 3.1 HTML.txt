@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Título da Página</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="descrição da página">
+        <meta name="keywords" content="Palavras Chaves, Separadas, Por,Virgulas, Minha Pagina, Pagina 01">
+        <meta name="author" content="HomeHost">
+        <meta name="robots" content="index, follow">
+        <link rel=”canonical” href=”http://www.meusite.com.br/index.php” />
+    </head>
+
+    <body>
+        <p>Este é um parágrafo</p>
+        <p>Este é outro parágrafo</p>
+        <figure>
+          <img src="imagem.jpg" alt="Minha Figura">
+          <figcaption>Informações da Figura</figcaption>
+        </figure>
+       <form action="" method="get">
+         <label for="GET-name">Name:</label>
+         <input id="GET-name" type="text" name="name">
+         <input type="submit" value="Save">
+        </form>
+    </body>
+
+</html>
