@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<html> 
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Comaptible" content="IE=edge">
+     <meta name+"viewport" content="width=device-width, initial-scale=1.0">
+     <! --Este é o link do arquivo style.css-->
+     <link rel="stylesheet" href="css/style.css">
+     <title>Pontos Turísticos na Europa</title>
+</head>
+<body>
+   
+     <div>
+        <h1>Pontos Turísticos na Europa</h1>
+     <div>
+     
+     <div class="card blue">
+       <h2>Torre Eiffel</h2>
+       <p> Torre Eiffel é uma torre de treliça de ferro forjado no Champ de Mars, em Paris, França.
+           Tem o nome do engenheiro Gustave Eiffel, cuja empresa projetou e construiu a torre.</p>
+       <img class="image" src="torreeiffel.png" alt="uma foto da Torre Eiffel"
+     </div>
+
+</body>
+</html>
