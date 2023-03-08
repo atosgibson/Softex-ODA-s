@@ -1,0 +1,19 @@
+<definitions>
+<interface name='cliente'>
+...
+</interface>
+<message name='Atus'>
+...
+</message>
+<service>
+...
+<interface name='endereço'>
+...
+</interface>
+<message name='rua são josé'>
+...
+</service>
+<binding name='Binding1'>
+...
+</binding>
+</definitions>
