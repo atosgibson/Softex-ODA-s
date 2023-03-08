@@ -1,0 +1,77 @@
+{
+  "posts": [
+    {
+      "title": "JSON SERVER",
+      "author": "foo",
+      "id": 1
+    },
+    {
+      "title": "REACT",
+      "author": "facebook",
+      "id": 2
+    },
+    {
+      "title": "BOOTSTRAP",
+      "author": "css master",
+      "id": 3
+    },
+    {
+      "title": "MEDIUM",
+      "author": "medium",
+      "id": 4
+    }
+  ]
+}
+
+getLists() {
+    this.setState({ loading: true }, () => {
+      fetch("http://localhost:3002/posts")
+        .then(res => res.json())
+        .then(result =>
+          this.setState({
+            loading: false,
+            alldata: result
+          })
+        )
+        .catch(console.log);
+    });
+  }
+  
+  createList() {
+    fetch("http://localhost:3002/posts", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(this.state.singledata)
+    }).then(
+      this.setState({
+        singledata: {
+          title: "",
+          author: ""
+        }
+      })
+    );
+  }
+  
+  updateList(event, id) {
+    fetch("http://localhost:3002/posts/" + id, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(this.state.singledata)
+    })
+      .then(res => res.json())
+      .then(result => {
+        this.setState({
+          singledata: {
+            title: "",
+            author: ""
+          }
+        });
+        this.getLists();
+      });
+  }
+  
+  
